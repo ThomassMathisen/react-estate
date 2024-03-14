@@ -1,4 +1,4 @@
-@import "./responsive.scss";
+@import "../../responsive.scss";
 
 .layout {
   height: 100vh;
@@ -16,5 +16,9 @@
   }
   @include sm {
     max-width: 640px;
+  }
+
+  .content {
+    height: calc(100vh - 100px);
   }
 }
